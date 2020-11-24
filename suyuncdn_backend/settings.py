@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '(53*0ti2!l7$*dc9qq3e9(2%ifpfwz+wa2lgo8##1@h6e*9g5a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', 'suyuncdn-backend.farmasiexperience.com']
 
 
 # Application definition
